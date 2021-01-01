@@ -63,11 +63,13 @@ ordered from the latest to old
 * Robin Jia, Cliff Wong, and Hoifung Poon. 2019. Document-level n-ary relation extraction with mul- tiscale representation learning. In Proceedings of the 2019 Conference of the North American Chap- ter of the Association for Computational Linguistics, pages 3693–3704.
 * Gupta, P.; Rajaram, S.; Schu ̈tze, H.; and Runkler, T. A. 2019. Neural Relation Extraction within and across Sen- tence Boundaries. In AAAI 2019, 6513–6520.
 * Zhijiang Guo, Yan Zhang, and Wei Lu. Atten- tion guided graph convolutional networks for rela- tion extraction. ACL 2019
-* Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou. 2019. Inter-sentence relation extraction with document-level graph con- volutional neural network. In Proceedings of the 57th Annual Meeting of the Association for Compu- tational Linguistics, pages 4309–4316.
+* Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou. 2019. Inter-sentence relation extraction with document-level graph con- volutional neural network. ACL 2019
 * Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, and Huajun Chen. 2019. Long-tail relation extraction via knowledge graph embeddings and graph convolution networks. In NAACL-HLT, pages 3016–3025, Minneapolis, MN, USA. ACL.
 * Nicola De Cao, Wilker Aziz, and Ivan Titov. 2019. Question answering by reasoning across documents with graph convolutional networks. In Proc. of NAACL-HLT.
 * Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xi- aodong He, and Bowen Zhou. 2019. Multi-hop read- ing comprehension across multiple documents by reasoning over heterogeneous graphs. In Proc. of ACL.
 * Bill Yuchen Lin, Xinyue Chen, Jamin Chen, and Xi- ang Ren. 2019. Kagnet: Knowledge-aware graph networks for commonsense reasoning. In Proc. of EMNLP.
+* Nicola De Cao, Wilker Aziz, Ivan Titov. Question Answering by Reasoning Across Documents with Graph Convolutional Networks. NAACL 2019.
+
 
 #### 2018
 
