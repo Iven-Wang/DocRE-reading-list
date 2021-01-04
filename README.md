@@ -26,6 +26,7 @@ ordered from the latest to old
 * [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang, COLING 2020
 
 * [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo, COLING 2020
+  <br> 👉 Method: strcuct modeling graph + relation reasoning graph + weighted RGCN
 
 ### EMNLP 2020
 
@@ -65,10 +66,10 @@ ordered from the latest to old
 * Zhijiang Guo, Yan Zhang, and Wei Lu. Atten- tion guided graph convolutional networks for rela- tion extraction. ACL 2019
 * Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou. 2019. Inter-sentence relation extraction with document-level graph con- volutional neural network. ACL 2019
 * Ningyu Zhang, Shumin Deng, Zhanlin Sun, Guanying Wang, Xi Chen, Wei Zhang, and Huajun Chen. 2019. Long-tail relation extraction via knowledge graph embeddings and graph convolution networks. In NAACL-HLT, pages 3016–3025, Minneapolis, MN, USA. ACL.
-* Nicola De Cao, Wilker Aziz, and Ivan Titov. 2019. Question answering by reasoning across documents with graph convolutional networks. In Proc. of NAACL-HLT.
 * Ming Tu, Guangtao Wang, Jing Huang, Yun Tang, Xi- aodong He, and Bowen Zhou. 2019. Multi-hop read- ing comprehension across multiple documents by reasoning over heterogeneous graphs. In Proc. of ACL.
 * Bill Yuchen Lin, Xinyue Chen, Jamin Chen, and Xi- ang Ren. 2019. Kagnet: Knowledge-aware graph networks for commonsense reasoning. In Proc. of EMNLP.
 * Nicola De Cao, Wilker Aziz, Ivan Titov. Question Answering by Reasoning Across Documents with Graph Convolutional Networks. NAACL 2019.
+* Yu Cao, Meng Fang, and Dacheng Tao. 2019. Bag: Bi-directional attention entity graph convolutional network for multi-hop reasoning question answering. In Proc. of NAACL.
 
 
 #### 2018
