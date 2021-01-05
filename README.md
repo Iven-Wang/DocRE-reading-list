@@ -79,6 +79,7 @@ ordered from the latest to old
 * Yuhao Zhang, Peng Qi, and Christopher D Manning. 2018. Graph convolution over pruned dependency trees improves relation extraction. In EMNLP, pages 2205–2215, Brussels, Belgium. ACL.
 * Wei Zheng, Hongfei Lin, Zhiheng Li, Xiaoxia Liu, Zhengguang Li, Bo Xu, Yijia Zhang, Zhihao Yang, and Jian Wang. 2018. An effective neural model extracting document level chemical-induced disease relations from biomedical literature. Journal of Biomedical Informatics, 83:1–9.
 * Rasmus Palm, Ulrich Paquet, Ole Winther. Recurrent Relational Networks. NeurIPS 2018.
+* Dat Quoc Nguyen and Karin Verspoor. Convolutional neural networks for chemical-disease relation ex- traction are improved with character-based word embeddings. BioNLP 2018
 
 
 
