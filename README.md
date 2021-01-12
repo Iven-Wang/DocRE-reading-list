@@ -59,6 +59,8 @@ ordered from the latest to old
 
 * Tang, H.; Cao, Y.; Zhang, Z.; Cao, J.; Fang, F.; Wang, S.; and Yin, P. 2020. HIN: Hierarchical Inference Network for Document-Level Relation Extraction. In PAKDD 2020, vol- ume 12084 of Lecture Notes in Computer Science, 197–209.
 * Deming Ye, Yankai Lin, Jiaju Du, Zhenghao Liu, Maosong Sun, and Zhiyuan Liu. 2020. Coreferen- tial reasoning learning for language representation. In EMNLP, Online. ACL.
+* Kuekyeng Kim, YunaHur, Gyeongmin Kim, and Heuiseok Lim. 2020. GREG: A Global Level Relation Extraction with Knowledge Graph Embedding. Applied Sciences, 10(3):1181.
+* Angrosh Mandya, Danushka Bollega, and Frans Coenen. 2020. Contextualised Graph Attention for Improved Re- lation Extraction. arXiv:2004.10624.
 
 #### 2019
 
@@ -71,6 +73,7 @@ ordered from the latest to old
 * Bill Yuchen Lin, Xinyue Chen, Jamin Chen, and Xi- ang Ren. 2019. Kagnet: Knowledge-aware graph networks for commonsense reasoning. In Proc. of EMNLP.
 * Nicola De Cao, Wilker Aziz, Ivan Titov. Question Answering by Reasoning Across Documents with Graph Convolutional Networks. NAACL 2019.
 * Yu Cao, Meng Fang, and Dacheng Tao. 2019. Bag: Bi-directional attention entity graph convolutional network for multi-hop reasoning question answering. In Proc. of NAACL.
+* Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, and Maosong Sun. 2019. Graph Neural Networks with Generated Parameters for Relation Extraction. ACL 2019
 
 
 #### 2018
