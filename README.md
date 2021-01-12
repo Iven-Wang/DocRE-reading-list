@@ -25,6 +25,7 @@ ordered from the latest to old
   <br> 👉 Method: bi-directional attn between sentence & relation instance + attn duality + support evidence guide
 
 * [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang, COLING 2020
+  <br> 👉 Method: entity graph with attn gate & attn adj matrix for entity representation + entity graph with multi-head attn as adj matrix for reasoning + dense-GCN
 
 * [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo, COLING 2020
   <br> 👉 Method: strcuct modeling graph + relation reasoning graph + weighted RGCN
