@@ -1,6 +1,10 @@
 # Document-Level-Relation-Extraction-Paper-List
 
-ordered from the latest to old
+[TOC]
+
+## Published
+
+ordered from new to old
 
 ### AAAI 2021
 
@@ -11,13 +15,6 @@ ordered from the latest to old
 * [Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction](), Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
 
 * [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
-
-### Rejected by AAAI 2021
-
-* [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
-  <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
-
-* [Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283), Kevin Huang, Guangtao Wang, Tengyu Ma, Jing Huang
 
 ### COLING 2020
 
@@ -50,7 +47,21 @@ ordered from the latest to old
 * [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
   <br> 👉 Method: Edge-oriented graph + Iterative Inference Mechanism
 
-### arXiv / open review 2019
+## arXiv / open review
+
+### 2021
+
+* [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
+  <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
+
+### Rejected by AAAI 2021
+
+* [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
+  <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
+
+* [Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283), Kevin Huang, Guangtao Wang, Tengyu Ma, Jing Huang
+
+### 2019
 
 * [Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898), Hong Wang, Christfried Focke, Rob Sylvester, Nilesh Mishra, William Wang
 
@@ -61,9 +72,9 @@ ordered from the latest to old
 #### 2020
 
 * Tang, H.; Cao, Y.; Zhang, Z.; Cao, J.; Fang, F.; Wang, S.; and Yin, P. 2020. HIN: Hierarchical Inference Network for Document-Level Relation Extraction. In PAKDD 2020, vol- ume 12084 of Lecture Notes in Computer Science, 197–209.
-* Deming Ye, Yankai Lin, Jiaju Du, Zhenghao Liu, Maosong Sun, and Zhiyuan Liu. 2020. Coreferen- tial reasoning learning for language representation. In EMNLP, Online. ACL.
+* Deming Ye, Yankai Lin, Jiaju Du, Zhenghao Liu, Maosong Sun, and Zhiyuan Liu. 2020. Coreferential reasoning learning for language representation. In EMNLP, Online. ACL.
 * Kuekyeng Kim, YunaHur, Gyeongmin Kim, and Heuiseok Lim. 2020. GREG: A Global Level Relation Extraction with Knowledge Graph Embedding. Applied Sciences, 10(3):1181.
-* Angrosh Mandya, Danushka Bollega, and Frans Coenen. 2020. Contextualised Graph Attention for Improved Re- lation Extraction. arXiv:2004.10624.
+* Angrosh Mandya, Danushka Bollega, and Frans Coenen. 2020. Contextualised Graph Attention for Improved Relation Extraction. arXiv:2004.10624.
 
 #### 2019
 
