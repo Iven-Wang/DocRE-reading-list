@@ -1,6 +1,22 @@
-# Document-Level-Relation-Extraction-Paper-List
 
-[TOC]
+Table of contents
+
+- [Published](#published)
+  - [AAAI 2021](#aaai-2021)
+  - [COLING 2020](#coling-2020)
+  - [EMNLP 2020](#emnlp-2020)
+  - [ACL 2020](#acl-2020)
+  - [EMNLP 2019](#emnlp-2019)
+- [arXiv / open review](#arxiv--open-review)
+  - [2021](#2021)
+  - [Rejected by AAAI 2021](#rejected-by-aaai-2021)
+  - [2019](#2019)
+- [TODOS](#todos)
+    - [2020](#2020)
+    - [2019](#2019-1)
+    - [2018](#2018)
+    - [Earlier](#earlier)
+
 
 ## Published
 
