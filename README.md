@@ -9,10 +9,10 @@ Table of contents
   - [EMNLP 2019](#emnlp-2019)
 - [arXiv / open review](#arxiv--open-review)
   - [2021](#2021)
-  - [Rejected by AAAI 2021](#rejected-by-aaai-2021)
+  - [2020](#2020)
   - [2019](#2019)
 - [TODOS](#todos)
-    - [2020](#2020)
+    - [2020](#2020-1)
     - [2019](#2019-1)
     - [2018](#2018)
     - [Earlier](#earlier)
@@ -70,7 +70,7 @@ ordered from new to old
 * [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
   <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
 
-### Rejected by AAAI 2021
+### 2020
 
 * [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
   <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
