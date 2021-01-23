@@ -6,6 +6,7 @@ Table of contents
   - [COLING 2020](#coling-2020)
   - [EMNLP 2020](#emnlp-2020)
   - [ACL 2020](#acl-2020)
+  - [NAACL 2019](#naacl-2019)
   - [EMNLP 2019](#emnlp-2019)
   - [ACL 2019](#acl-2019)
 - [arXiv / open review / IEEE Access](#arxiv--open-review--ieee-access)
@@ -60,6 +61,10 @@ ordered from new to old
 * [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu, ACL 2020
   <br> 👉 Method: Latent Structure + DCGCN
 
+### NAACL 2019
+
+* [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
+
 ### EMNLP 2019
 
 * [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
@@ -91,7 +96,7 @@ ordered from new to old
 
 ## TODOS
 
-从标题上看，和 docRE 至少有弱联系的
+可能不是专门做 DocRED，但是任务上有一些联系的
 
 ### 2020
 
@@ -111,6 +116,7 @@ ordered from new to old
 * Nicola De Cao, Wilker Aziz, Ivan Titov. Question Answering by Reasoning Across Documents with Graph Convolutional Networks. NAACL 2019.
 * Yu Cao, Meng Fang, and Dacheng Tao. 2019. Bag: Bi-directional attention entity graph convolutional network for multi-hop reasoning question answering. In Proc. of NAACL.
 * Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, and Maosong Sun. 2019. Graph Neural Networks with Generated Parameters for Relation Extraction. ACL 2019
+* Guo, Z.; Zhang, Y.; and Lu, W. 2019. Attention Guided Graph Convolutional Networks for Relation Extraction. In ACL.
 
 
 ### 2018
@@ -120,7 +126,8 @@ ordered from new to old
 * Yuhao Zhang, Peng Qi, and Christopher D Manning. 2018. Graph convolution over pruned dependency trees improves relation extraction. In EMNLP, pages 2205–2215, Brussels, Belgium. ACL.
 * Wei Zheng, Hongfei Lin, Zhiheng Li, Xiaoxia Liu, Zhengguang Li, Bo Xu, Yijia Zhang, Zhihao Yang, and Jian Wang. 2018. An effective neural model extracting document level chemical-induced disease relations from biomedical literature. Journal of Biomedical Informatics, 83:1–9.
 * Rasmus Palm, Ulrich Paquet, Ole Winther. Recurrent Relational Networks. NeurIPS 2018.
-* Dat Quoc Nguyen and Karin Verspoor. Convolutional neural networks for chemical-disease relation ex- traction are improved with character-based word embeddings. BioNLP 2018
+* Dat Quoc Nguyen and Karin Verspoor. Convolutional neural networks for chemical-disease relation extraction are improved with character-based word embeddings. BioNLP 2018
+* Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2018. A Walk-based Model on Entity Graphs for Relation Extraction. In ACL.
 
 
 
