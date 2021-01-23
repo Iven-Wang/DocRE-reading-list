@@ -26,11 +26,13 @@ ordered from new to old
 
 ### AAAI 2021
 
-* [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao 
+* [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
+  <br> 👉 Method: build a graph like EoG, use LSTM to calculate the probability of "inference meta path", then maximize the probability of relationed entity pairs using BCE
 
 * [Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304), Wenxuan Zhou, Kevin Huang, Tengyu Ma, Jing Huang
+  <br> 👉 Method: improve BERT with marker, log-sum-exp pooling, group bilinear + adaptive threshold class + directly use transformer's attn matrix to aggregation words into doc representation
 
-* [Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction](), Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
+* Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction, Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
 
 * [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
