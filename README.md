@@ -76,6 +76,8 @@ ordered from new to old
 
 * [Inter-sentence Relation Extraction with Document- level Graph Convolutional Neural Network](https://www.aclweb.org/anthology/P19-1423/), Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou
 
+* [Attention Guided Graph Convolutional Networks for Relation Extraction](https://arxiv.org/abs/2010.11304), Zhijiang Guo, Yan Zhang, Wei Lu
+
 ## arXiv / open review / IEEE Access
 
 ### 2021
@@ -118,7 +120,6 @@ ordered from new to old
 * Nicola De Cao, Wilker Aziz, Ivan Titov. Question Answering by Reasoning Across Documents with Graph Convolutional Networks. NAACL 2019.
 * Yu Cao, Meng Fang, and Dacheng Tao. 2019. Bag: Bi-directional attention entity graph convolutional network for multi-hop reasoning question answering. In Proc. of NAACL.
 * Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, and Maosong Sun. 2019. Graph Neural Networks with Generated Parameters for Relation Extraction. ACL 2019
-* Guo, Z.; Zhang, Y.; and Lu, W. 2019. Attention Guided Graph Convolutional Networks for Relation Extraction. In ACL.
 
 
 ### 2018
