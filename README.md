@@ -85,6 +85,9 @@ ordered from new to old
 * [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
   <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
 
+* [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
+  <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
+
 ### 2020
 
 * [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
