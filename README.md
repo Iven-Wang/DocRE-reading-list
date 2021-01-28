@@ -14,6 +14,7 @@ Table of contents
   - [2020](#2020)
   - [2019](#2019)
 - [TODOS](#todos)
+  - [2021](#2021-1)
   - [2020](#2020-1)
   - [2019](#2019-1)
   - [2018](#2018)
@@ -104,6 +105,11 @@ ordered from new to old
 ## TODOS
 
 可能不是专门做 DocRED，但是任务上有一些联系的
+
+### 2021
+
+* Two Training Strategies for Improving Relation Extraction over Universal Graph
+Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui, EACL 2021
 
 ### 2020
 
