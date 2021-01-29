@@ -1,6 +1,3 @@
-
-Table of contents
-
 - [Published](#published)
   - [AAAI 2021](#aaai-2021)
   - [COLING 2020](#coling-2020)
@@ -20,10 +17,11 @@ Table of contents
   - [2018](#2018)
   - [Earlier](#earlier)
 
+Our list is still incomplete and the categorization might be inappropriate. We will keep adding papers and improving the list. Any suggestions are welcomed!
 
 ## Published
 
-ordered from new to old
+Ordered from new to old
 
 ### AAAI 2021
 
@@ -67,6 +65,7 @@ ordered from new to old
 ### NAACL 2019
 
 * [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
+  <br> 👉 Method: multioscale representation of mention and entity: lstm for paragraph-level mention representation, log-sum-exp pooling for entity representation
 
 ### EMNLP 2019
 
@@ -104,7 +103,7 @@ ordered from new to old
 
 ## TODOS
 
-可能不是专门做 DocRED，但是任务上有一些联系的
+Didn't read yet, but the title is somewhat relevant to DocRE.
 
 ### 2021
 
