@@ -1,19 +1,14 @@
 - [Published](#published)
-  - [AAAI 2021](#aaai-2021)
-  - [COLING 2020](#coling-2020)
-  - [EMNLP 2020](#emnlp-2020)
-  - [ACL 2020](#acl-2020)
-  - [NAACL 2019](#naacl-2019)
-  - [EMNLP 2019](#emnlp-2019)
-  - [ACL 2019](#acl-2019)
-- [arXiv / open review / IEEE Access](#arxiv--open-review--ieee-access)
   - [2021](#2021)
   - [2020](#2020)
   - [2019](#2019)
-- [TODOS](#todos)
+- [arXiv / open review / IEEE Access](#arxiv--open-review--ieee-access)
   - [2021](#2021-1)
   - [2020](#2020-1)
   - [2019](#2019-1)
+- [TODOS](#todos)
+  - [2021](#2021-2)
+  - [2019](#2019-2)
   - [2018](#2018)
   - [Earlier](#earlier)
 
@@ -25,60 +20,58 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 Ordered from new to old
 
-### AAAI 2021
+### 2021
 
-* [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
+* AAAI 2021 [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
   <br> 👉 Method: build a graph like EoG, use LSTM to calculate the probability of "inference meta path", then maximize the probability of relationed entity pairs using BCE
 
-* [Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304), Wenxuan Zhou, Kevin Huang, Tengyu Ma, Jing Huang
+* AAAI 2021 [Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304), Wenxuan Zhou, Kevin Huang, Tengyu Ma, Jing Huang
   <br> 👉 Method: improve BERT with marker, log-sum-exp pooling, group bilinear + adaptive threshold class + directly use transformer's attn matrix to aggregation words into doc representation
 
-* Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction, Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
+* AAAI 2021 Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction, Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
 
-* [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
+* AAAI 2021 [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
 
-### COLING 2020
+### 2020
 
-* [Graph Enhanced Dual Attention Network for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.136/),Bo Li, Wei Ye, Zhonghao Sheng, Rui Xie, Xiangyu Xi, Shikun Zhang, COLING 2020
+* COLING 2020 [Graph Enhanced Dual Attention Network for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.136/),Bo Li, Wei Ye, Zhonghao Sheng, Rui Xie, Xiangyu Xi, Shikun Zhang
   <br> 👉 Method: bi-directional attn between sentence & relation instance + attn duality + support evidence guide
 
-* [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang, COLING 2020
+* COLING 2020 [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang
   <br> 👉 Method: entity graph with attn gate & attn adj matrix for entity representation + entity graph with multi-head attn as adj matrix for reasoning + dense-node&edge-GCN
 
-* [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo, COLING 2020
+* COLING 2020 [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo
   <br> 👉 Method: strcuct modeling graph + relation reasoning graph + weighted RGCN
 
-### EMNLP 2020
-
-* [Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752), Shuang Zeng, Runxin Xu, Baobao Chang, Lei Li, EMNLP 2020
+* EMNLP 2020 [Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752), Shuang Zeng, Runxin Xu, Baobao Chang, Lei Li
   <br> 👉 Method: Mention graph(mention + doc node) + entity graph (2-hot at most)
 
-* [Global-to-Local Neural Networks for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.303), Difeng Wang, Wei Hu, Ermei Cao, Weijian Sun, EMNLP 2020
+* EMNLP 2020 [Global-to-Local Neural Networks for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.emnlp-main.303), Difeng Wang, Wei Hu, Ermei Cao, Weijian Sun
   <br> 👉 Method: EoG + R-GCN + entity-pair attention
 
-* [Denoising Relation Extraction from Document-level Distant Supervision](https://arxiv.org/abs/2011.03888), Chaojun Xiao, Yuan Yao, Ruobing Xie, Xu Han, Zhiyuan Liu, Maosong Sun, Fen Lin, Leyu Lin, EMNLP 2020
+* EMNLP 2020 [Denoising Relation Extraction from Document-level Distant Supervision](https://arxiv.org/abs/2011.03888), Chaojun Xiao, Yuan Yao, Ruobing Xie, Xu Han, Zhiyuan Liu, Maosong Sun, Fen Lin, Leyu Lin
+  <br> 👉 Method: using DS data to pre-train model for DocRE with 3 tasks: Mention-Entity Matching, Relation Detection, Relational Fact Alignment
 
-### ACL 2020
+* PAKDD 2020 [HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754), Hengzhu Tang, Yanan Cao, Zhenyu Zhang, Jiangxia Cao, Fang Fang, Shi Wang, Pengfei Yin
+  <br> 👉 Method: Hierarchical (entity & document level) inference representation (using LSTMs, attention and all kinds of "concat") for an entity pair's representation
 
-* [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu, ACL 2020
+* ACL 2020 [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu
   <br> 👉 Method: Latent Structure + DCGCN
 
-### NAACL 2019
+### 2019
 
-* [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
+* NAACL 2019 [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
   <br> 👉 Method: multioscale representation of mention and entity: lstm for paragraph-level mention representation, log-sum-exp pooling for entity representation
 
-### EMNLP 2019
-
-* [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
+* EMNLP 2019 [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
   <br> 👉 Method: Edge-oriented graph + Iterative Inference Mechanism
 
-### ACL 2019
+* ACL 2019 [Inter-sentence Relation Extraction with Document- level Graph Convolutional Neural Network](https://www.aclweb.org/anthology/P19-1423/), Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou
+  <br> 👉 Method: GCN + bi-affine classification
 
-* [Inter-sentence Relation Extraction with Document- level Graph Convolutional Neural Network](https://www.aclweb.org/anthology/P19-1423/), Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou
-
-* [Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf), Zhijiang Guo, Yan Zhang, Wei Lu
+* ACL 2019 [Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf), Zhijiang Guo, Yan Zhang, Wei Lu
+  <br> 👉 Method: muoti-head attention to get multi graph with different adj matrix + dense GCN
 
 ## arXiv / open review / IEEE Access
 
@@ -98,10 +91,12 @@ Ordered from new to old
 * [Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283), Kevin Huang, Guangtao Wang, Tengyu Ma, Jing Huang
 
 * [A Novel Document-Level Relation Extraction Method Based on BERT and Entity Information](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9098945), Xiaoyu Han and Lei Wang, IEEE Access
+  <br> 👉 Method: using marker to wrap mention as {[entity type] mention [entity X]}, then using BERT + bilinear
 
 ### 2019
 
 * [Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898), Hong Wang, Christfried Focke, Rob Sylvester, Nilesh Mishra, William Wang
+  <br> 👉 Method: BERT + bilinear, 2 step training: binary classification for relation detection, then multi classification for relation type
 
 ## TODOS
 
@@ -111,13 +106,6 @@ Didn't read yet, but the title is somewhat relevant to DocRE.
 
 * Two Training Strategies for Improving Relation Extraction over Universal Graph
 Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui, EACL 2021
-
-### 2020
-
-* Tang, H.; Cao, Y.; Zhang, Z.; Cao, J.; Fang, F.; Wang, S.; and Yin, P. 2020. HIN: Hierarchical Inference Network for Document-Level Relation Extraction. In PAKDD 2020, vol- ume 12084 of Lecture Notes in Computer Science, 197–209.
-* Deming Ye, Yankai Lin, Jiaju Du, Zhenghao Liu, Maosong Sun, and Zhiyuan Liu. 2020. Coreferential reasoning learning for language representation. In EMNLP, Online. ACL.
-* Kuekyeng Kim, YunaHur, Gyeongmin Kim, and Heuiseok Lim. 2020. GREG: A Global Level Relation Extraction with Knowledge Graph Embedding. Applied Sciences, 10(3):1181.
-* Angrosh Mandya, Danushka Bollega, and Frans Coenen. 2020. Contextualised Graph Attention for Improved Relation Extraction. arXiv:2004.10624.
 
 ### 2019
 
@@ -141,7 +129,6 @@ Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui, EACL 2021
 * Rasmus Palm, Ulrich Paquet, Ole Winther. Recurrent Relational Networks. NeurIPS 2018.
 * Dat Quoc Nguyen and Karin Verspoor. Convolutional neural networks for chemical-disease relation extraction are improved with character-based word embeddings. BioNLP 2018
 * Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2018. A Walk-based Model on Entity Graphs for Relation Extraction. In ACL.
-
 
 
 ### Earlier
