@@ -1,12 +1,3 @@
-- [Papers](#papers)
-  - [2021](#2021)
-  - [2020](#2020)
-  - [2019](#2019)
-- [TODOS](#todos)
-  - [2021](#2021-1)
-  - [2019](#2019-1)
-  - [2018](#2018)
-  - [Earlier](#earlier)
 
 This is a paper reading list on Document level Relation Extraction.
 
