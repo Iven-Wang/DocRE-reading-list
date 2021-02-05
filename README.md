@@ -1,14 +1,10 @@
-- [Published](#published)
+- [Papers](#papers)
   - [2021](#2021)
   - [2020](#2020)
   - [2019](#2019)
-- [arXiv / open review / IEEE Access](#arxiv--open-review--ieee-access)
-  - [2021](#2021-1)
-  - [2020](#2020-1)
-  - [2019](#2019-1)
 - [TODOS](#todos)
-  - [2021](#2021-2)
-  - [2019](#2019-2)
+  - [2021](#2021-1)
+  - [2019](#2019-1)
   - [2018](#2018)
   - [Earlier](#earlier)
 
@@ -16,9 +12,7 @@ This is a paper reading list on Document level Relation Extraction.
 
 Our list is still incomplete and the categorization might be inappropriate. We will keep adding papers and improving the list. Any suggestions are welcomed!
 
-## Published
-
-Ordered from new to old
+## Papers
 
 ### 2021
 
@@ -33,16 +27,16 @@ Ordered from new to old
 * AAAI 2021 [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
 
+* arXiv 2021 [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
+  <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
+
+* arXiv 2021 [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
+  <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
+
 ### 2020
 
-* COLING 2020 [Graph Enhanced Dual Attention Network for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.136/),Bo Li, Wei Ye, Zhonghao Sheng, Rui Xie, Xiangyu Xi, Shikun Zhang
-  <br> 👉 Method: bi-directional attn between sentence & relation instance + attn duality + support evidence guide
-
-* COLING 2020 [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang
-  <br> 👉 Method: entity graph with attn gate & attn adj matrix for entity representation + entity graph with multi-head attn as adj matrix for reasoning + dense-node&edge-GCN
-
-* COLING 2020 [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo
-  <br> 👉 Method: strcuct modeling graph + relation reasoning graph + weighted RGCN
+* ACL 2020 [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu
+  <br> 👉 Method: Latent Structure + DCGCN
 
 * EMNLP 2020 [Double Graph Based Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2009.13752), Shuang Zeng, Runxin Xu, Baobao Chang, Lei Li
   <br> 👉 Method: Mention graph(mention + doc node) + entity graph (2-hot at most)
@@ -53,11 +47,25 @@ Ordered from new to old
 * EMNLP 2020 [Denoising Relation Extraction from Document-level Distant Supervision](https://arxiv.org/abs/2011.03888), Chaojun Xiao, Yuan Yao, Ruobing Xie, Xu Han, Zhiyuan Liu, Maosong Sun, Fen Lin, Leyu Lin
   <br> 👉 Method: using DS data to pre-train model for DocRE with 3 tasks: Mention-Entity Matching, Relation Detection, Relational Fact Alignment
 
+* COLING 2020 [Graph Enhanced Dual Attention Network for Document-Level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.136/),Bo Li, Wei Ye, Zhonghao Sheng, Rui Xie, Xiangyu Xi, Shikun Zhang
+  <br> 👉 Method: bi-directional attn between sentence & relation instance + attn duality + support evidence guide
+
+* COLING 2020 [Global Context-enhanced Graph Convolutional Networks for Document-level Relation Extraction](https://www.aclweb.org/anthology/2020.coling-main.461/), Huiwei Zhou, Yibin Xu, Zhe Liu, Weihong Yao, Chengkun Lang, Haibin Jiang
+  <br> 👉 Method: entity graph with attn gate & attn adj matrix for entity representation + entity graph with multi-head attn as adj matrix for reasoning + dense-node&edge-GCN
+
+* COLING 2020 [Document-level Relation Extraction with Dual-tier Heterogeneous Graph](https://www.aclweb.org/anthology/2020.coling-main.143/), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, Tingwen Liu, Hengzhu Tang, Yubin Wang and Li Guo
+  <br> 👉 Method: strcuct modeling graph + relation reasoning graph + weighted RGCN
+
 * PAKDD 2020 [HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754), Hengzhu Tang, Yanan Cao, Zhenyu Zhang, Jiangxia Cao, Fang Fang, Shi Wang, Pengfei Yin
   <br> 👉 Method: Hierarchical (entity & document level) inference representation (using LSTMs, attention and all kinds of "concat") for an entity pair's representation
 
-* ACL 2020 [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu
-  <br> 👉 Method: Latent Structure + DCGCN
+* arXiv 2020 [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
+  <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
+
+* arXiv 2020 [Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283), Kevin Huang, Guangtao Wang, Tengyu Ma, Jing Huang
+
+* IEEE Access 2020 [A Novel Document-Level Relation Extraction Method Based on BERT and Entity Information](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9098945), Xiaoyu Han and Lei Wang
+  <br> 👉 Method: using marker to wrap mention as {[entity type] mention [entity X]}, then using BERT + bilinear
 
 ### 2019
 
@@ -73,29 +81,7 @@ Ordered from new to old
 * ACL 2019 [Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf), Zhijiang Guo, Yan Zhang, Wei Lu
   <br> 👉 Method: muoti-head attention to get multi graph with different adj matrix + dense GCN
 
-## arXiv / open review / IEEE Access
-
-### 2021
-
-* [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
-  <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
-
-* [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
-  <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
-
-### 2020
-
-* [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
-  <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
-
-* [Entity and Evidence Guided Relation Extraction for DocRED](https://arxiv.org/abs/2008.12283), Kevin Huang, Guangtao Wang, Tengyu Ma, Jing Huang
-
-* [A Novel Document-Level Relation Extraction Method Based on BERT and Entity Information](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9098945), Xiaoyu Han and Lei Wang, IEEE Access
-  <br> 👉 Method: using marker to wrap mention as {[entity type] mention [entity X]}, then using BERT + bilinear
-
-### 2019
-
-* [Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898), Hong Wang, Christfried Focke, Rob Sylvester, Nilesh Mishra, William Wang
+* arXiv 2019 [Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898), Hong Wang, Christfried Focke, Rob Sylvester, Nilesh Mishra, William Wang
   <br> 👉 Method: BERT + bilinear, 2 step training: binary classification for relation detection, then multi classification for relation type
 
 ## TODOS
