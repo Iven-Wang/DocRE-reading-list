@@ -77,7 +77,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ## TODOS
 
-Didn't read yet, but the title is somewhat relevant to DocRE.
+haven't read yet, but the title is somewhat relevant to DocRE.
 
 ### 2021
 
