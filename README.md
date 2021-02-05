@@ -78,7 +78,7 @@ Ordered from new to old
 
 * [Inter-sentence Relation Extraction with Document- level Graph Convolutional Neural Network](https://www.aclweb.org/anthology/P19-1423/), Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou
 
-* [Attention Guided Graph Convolutional Networks for Relation Extraction](https://arxiv.org/abs/2010.11304), Zhijiang Guo, Yan Zhang, Wei Lu
+* [Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf), Zhijiang Guo, Yan Zhang, Wei Lu
 
 ## arXiv / open review / IEEE Access
 
