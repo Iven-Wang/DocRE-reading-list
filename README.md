@@ -60,17 +60,17 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2019
 
-* NAACL 2019 [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
-  <br> 👉 Method: multioscale representation of mention and entity: lstm for paragraph-level mention representation, log-sum-exp pooling for entity representation
-
-* EMNLP 2019 [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
-  <br> 👉 Method: Edge-oriented graph + Iterative Inference Mechanism
-
 * ACL 2019 [Inter-sentence Relation Extraction with Document- level Graph Convolutional Neural Network](https://www.aclweb.org/anthology/P19-1423/), Sunil Kumar Sahu, Fenia Christopoulou, Makoto Miwa, and Sophia Ananiadou
   <br> 👉 Method: GCN + bi-affine classification
 
 * ACL 2019 [Attention Guided Graph Convolutional Networks for Relation Extraction](https://www.aclweb.org/anthology/P19-1024.pdf), Zhijiang Guo, Yan Zhang, Wei Lu
   <br> 👉 Method: muoti-head attention to get multi graph with different adj matrix + dense GCN
+
+* EMNLP 2019 [Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs](https://arxiv.org/abs/1909.00228), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou, EMNLP 2019
+  <br> 👉 Method: Edge-oriented graph + Iterative Inference Mechanism
+
+* NAACL 2019 [Document-Level N-ary Relation Extraction with Multiscale Representation Learning](https://arxiv.org/abs/1904.02347), Robin Jia, Cliff Wong, Hoifung Poon
+  <br> 👉 Method: multioscale representation of mention and entity: lstm for paragraph-level mention representation, log-sum-exp pooling for entity representation
 
 * arXiv 2019 [Fine-tune Bert for DocRED with Two-step Process](https://arxiv.org/abs/1909.11898), Hong Wang, Christfried Focke, Rob Sylvester, Nilesh Mishra, William Wang
   <br> 👉 Method: BERT + bilinear, 2 step training: binary classification for relation detection, then multi classification for relation type
