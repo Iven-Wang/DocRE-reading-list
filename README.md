@@ -13,7 +13,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * AAAI 2021 [Document-Level Relation Extraction with Adaptive Thresholding and Localized Context Pooling](https://arxiv.org/abs/2010.11304), Wenxuan Zhou, Kevin Huang, Tengyu Ma, Jing Huang
   <br> 👉 Method: improve BERT with marker, log-sum-exp pooling, group bilinear + adaptive threshold class + directly use transformer's attn matrix to aggregation words into doc representation
 
-* AAAI 2021 Entity Structure Within and Throughout: Modeling Mention Dependencies for Document- Level Relation Extraction, Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
+* AAAI 2021 Entity Structure Within and Throughout: Modeling Mention Dependencies for Document-Level Relation Extraction, Benfeng Xu, Quan Wang, Yajuan Lyu, Yong Zhu, Zhendong Mao
 
 * AAAI 2021 [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
@@ -83,7 +83,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ## Related Papers
 
-the task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE, GCN for RE, reasoning for MRC, etc.), of much value as well
+The task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE, GCN for RE, reasoning for MRC, etc.), of much value as well
 
 ### 2021
 
@@ -96,7 +96,7 @@ Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui, EACL 2021
 
 * ACL 2019 [Graph Neural Networks with Generated Parameters for Relation Extraction](https://www.aclweb.org/anthology/P19-1128.pdf), Hao Zhu, Yankai Lin, Zhiyuan Liu, Jie Fu, Tat-seng Chua, and Maosong Sun
 
-* EMNLP 2019 [Kagnet: Knowledge-aware graph networks for commonsense reasoning](https://www.aclweb.org/anthology/D19-1282.pdf), Bill Yuchen Lin, Xinyue Chen, Jamin Chen, and Xiang Ren
+* EMNLP 2019 [KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning](https://www.aclweb.org/anthology/D19-1282.pdf), Bill Yuchen Lin, Xinyue Chen, Jamin Chen, and Xiang Ren
 
 * NAACL 2019 [Question Answering by Reasoning Across Documents with Graph Convolutional Networks](https://arxiv.org/abs/1808.09920), Nicola De Cao, Wilker Aziz, Ivan Titov
 
