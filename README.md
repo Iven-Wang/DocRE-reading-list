@@ -7,6 +7,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
+* EACL 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
+  <br> 👉 Method: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
+
 * AAAI 2021 [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
   <br> 👉 Method: build a graph like EoG, use LSTM to calculate the probability of "inference meta path", then maximize the probability of relationed entity pairs using BCE
 
@@ -24,8 +27,6 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * arXiv 2021 [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
   <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
 
-* arXiv 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
-  <br> 👉 Method: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
 
 ### 2020
 
