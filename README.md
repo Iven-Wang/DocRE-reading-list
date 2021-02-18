@@ -24,6 +24,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * arXiv 2021 [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
   <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
 
+* arXiv 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
+  <br> 👉 Method: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
+
 ### 2020
 
 * ACL 2020 [Reasoning with Latent Structure Refinement for Document-Level Relation Extraction](https://arxiv.org/abs/2005.06312), Guoshun Nan, Zhijiang Guo, Ivan Sekulić, Wei Lu
