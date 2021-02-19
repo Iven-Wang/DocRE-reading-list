@@ -8,7 +8,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 ### 2021
 
 * EACL 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
-  <br> 👉 Method: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
+  <br> 👉 Method: a model for JOINT mention detection and doc RE: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
 
 * AAAI 2021 [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
   <br> 👉 Method: build a graph like EoG, use LSTM to calculate the probability of "inference meta path", then maximize the probability of relationed entity pairs using BCE
@@ -91,8 +91,7 @@ The task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE
 
 ### 2021
 
-* Two Training Strategies for Improving Relation Extraction over Universal Graph
-Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui, EACL 2021
+* EACL 2021 [Two Training Strategies for Improving Relation Extraction over Universal Graph](https://arxiv.org/abs/2102.06540), Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui
 
 ### 2019
 
