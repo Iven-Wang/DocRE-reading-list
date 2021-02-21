@@ -92,6 +92,8 @@ The task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE
 ### 2021
 
 * EACL 2021 [Two Training Strategies for Improving Relation Extraction over Universal Graph](https://arxiv.org/abs/2102.06540), Qin Dai, Naoya Inoue, Ryo Takahashi and Kentaro Inui
+  <br> 👉 Task: DSRE
+  <br> 👉 Method: merge text into KG, and improve the "select path" stage with path type (textual, hybrid, KG paths) adaptive pretraining & complexity ranking guided attention
 
 ### 2019
 
