@@ -83,8 +83,14 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2018
 
-* NAACL 2018 [Simultaneously Self-Attending to All Mentions for Full-Abstract Biological Relation Extraction](https://www.aclweb.org/anthology/N18-1080/), Patrick Verga, Emma Strubell, and Andrew McCallum
+* EMNLP 2018 [N-ary Relation Extraction using Graph-State LSTM](https://www.aclweb.org/anthology/D18-1246), Linfeng Song, Yue Zhang, Zhiguo Wang, and Daniel Gildea
 
+* NAACL 2018 [Simultaneously Self-Attending to All Mentions for Full-Abstract Biological Relation Extraction](https://www.aclweb.org/anthology/N18-1080/), Patrick Verga, Emma Strubell, and Andrew McCallum
+  <br> 👉 Method: Transformers + CNN as encoder, head MLP and tail MLP for position-specific representations, bilinear + log-sum-exp for entity pair representation
+
+### 2017
+
+* TACL 2017 [Cross-Sentence N-ary Relation Extraction with Graph LSTMs](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/tacl17.pdf), Nanyun Peng, Hoifung Poon, Chris Quirk, Kristina Toutanova, and Wen-tau Yih
 
 ## Related Papers
 
@@ -118,8 +124,6 @@ The task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE
 
 ### 2018
 
-* EMNLP 2018 [N-ary Relation Extraction using Graph-State LSTM](https://www.aclweb.org/anthology/D18-1246), Linfeng Song, Yue Zhang, Zhiguo Wang, and Daniel Gildea
-
 * EMNLP 2018 [Graph Convolution over Pruned Dependency Trees Improves Relation Extraction](https://www.aclweb.org/anthology/D18-1244/), Yuhao Zhang, Peng Qi, and Christopher D Manning
 
 * Wei Zheng, Hongfei Lin, Zhiheng Li, Xiaoxia Liu, Zhengguang Li, Bo Xu, Yijia Zhang, Zhihao Yang, and Jian Wang. 2018. An effective neural model extracting document level chemical-induced disease relations from biomedical literature. Journal of Biomedical Informatics, 83:1–9.
@@ -129,8 +133,6 @@ The task of those papers are somewhat relevant to Doc RE (i.e. cross-sentence RE
 * ACL 2018 [A Walk-based Model on Entity Graphs for Relation Extraction](https://www.aclweb.org/anthology/P18-2014/), Fenia Christopoulou, Makoto Miwa, Sophia Ananiadou
 
 ### 2017
-
-* TACL 2017 [Cross-Sentence N-ary Relation Extraction with Graph LSTMs](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/05/tacl17.pdf), Nanyun Peng, Hoifung Poon, Chris Quirk, Kristina Toutanova, and Wen-tau Yih
 
 * ACL 2017 [Distant Supervision for Relation Extraction beyond the Sentence Boundary](https://www.aclweb.org/anthology/E17-1110), Chris Quirk and Hoifung Poon. 
 
