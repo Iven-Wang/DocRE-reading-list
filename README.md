@@ -28,6 +28,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * arXiv 2021 [MrGCN: Mirror Graph Convolution Network for Relation Extraction with Long-Term Dependencies](http://arxiv.org/abs/2101.00124), Xiao Guo, I-Hung Hsu, Wael AbdAlmageed, Premkumar Natarajan, Nanyun Peng
   <br> 👉 Method: pooling-unpooling after GCN layers to enlarge receptive field (like u-net)
 
+* arXiv 2021 [Mention-centered Graph Neural Network for Document-level Relation Extraction](http://arxiv.org/abs/2103.08200v1), Jiaxin Pan, Min Peng, Yiyan Zhang
+  <br> 👉 Method: introduce mention-mention edge weight when building a graph
+
 
 ### 2020
 
