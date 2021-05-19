@@ -7,6 +7,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
+* ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
+  <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
+
 * EACL 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
   <br> 👉 Method: a model for JOINT mention detection and doc RE: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
 
