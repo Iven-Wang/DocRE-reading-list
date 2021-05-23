@@ -13,6 +13,10 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 * ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() [code](https://github.com/xwjim/DRN)
 
+* PAKDD 2021 [Densely Connected Graph Attention Network Based on Iterative Path Reasoning for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75765-6_22.pdf), Hongya Zhang, Zhen Huang, Zhenzhen Li, Dongsheng Li, and Feng Liu
+
+* PAKDD 2021 [SaGCN: Structure-Aware Graph Convolution Network for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75768-7_30.pdf), Shuangji Yang, Taolin Zhang, Danning Su, Nan Hu, Wei Nong, and Xiaofeng He
+
 * ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
   <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
 
