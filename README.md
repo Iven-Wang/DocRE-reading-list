@@ -7,11 +7,13 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
-* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() [code](https://github.com/zjunlp/DocuNet)
+* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() [code](https://github.com/zjunlp/DocuNet) (Not public yet)
 
-* ACL 2021 Findings [SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction]() [code](https://github.com/DreamInvoker/SIRE)
+* ACL 2021 [Three Sentences Are All You Need — Local Path Enhanced DocumentRelation Extraction]() (Not public yet), Quzhe Huang, Shengqi Zhu, Yansong Feng, Yuan Ye, Yuxuan Lai and Dongyan Zhao
 
-* ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() [code](https://github.com/xwjim/DRN)
+* ACL 2021 Findings [SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction]() (Not public yet) [code](https://github.com/DreamInvoker/SIRE)
+
+* ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() (Not public yet) [code](https://github.com/xwjim/DRN)
 
 * PAKDD 2021 [Densely Connected Graph Attention Network Based on Iterative Path Reasoning for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75765-6_22.pdf), Hongya Zhang, Zhen Huang, Zhenzhen Li, Dongsheng Li, and Feng Liu
 
