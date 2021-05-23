@@ -9,6 +9,8 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 * IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() [code](https://github.com/zjunlp/DocuNet)
 
+* ACL 2021 Findings [SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction]() [code](https://github.com/DreamInvoker/SIRE)
+
 * ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() [code](https://github.com/xwjim/DRN)
 
 * ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
