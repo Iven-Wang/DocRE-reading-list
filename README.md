@@ -7,13 +7,13 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
-* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() [code](https://github.com/zjunlp/DocuNet) (Not public yet)
+* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() (Not public yet), [code](https://github.com/zjunlp/DocuNet)
 
 * ACL 2021 [Three Sentences Are All You Need — Local Path Enhanced DocumentRelation Extraction]() (Not public yet), Quzhe Huang, Shengqi Zhu, Yansong Feng, Yuan Ye, Yuxuan Lai and Dongyan Zhao
 
-* ACL 2021 Findings [SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction]() (Not public yet) [code](https://github.com/DreamInvoker/SIRE)
+* ACL 2021 Findings [SIRE: Separate Intra- and Inter-sentential Reasoning for Document-level Relation Extraction]() (Not public yet), [code](https://github.com/DreamInvoker/SIRE)
 
-* ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() (Not public yet) [code](https://github.com/xwjim/DRN)
+* ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction]() (Not public yet), [code](https://github.com/xwjim/DRN)
 
 * PAKDD 2021 [Densely Connected Graph Attention Network Based on Iterative Path Reasoning for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75765-6_22.pdf), Hongya Zhang, Zhen Huang, Zhenzhen Li, Dongsheng Li, and Feng Liu
 
@@ -73,7 +73,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * PAKDD 2020 [HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754), Hengzhu Tang, Yanan Cao, Zhenyu Zhang, Jiangxia Cao, Fang Fang, Shi Wang, Pengfei Yin
   <br> 👉 Method: Hierarchical (entity & document level) inference representation (using LSTMs, attention and all kinds of "concat") for an entity pair's representation
 
-* ICKG 2020 [Improving Document-level Relation Extraction via Contextualizing Mention Representations andWeighting Mention Pairs](https://ieeexplore.ieee.org/document/9194547), Ping Jiang, Xian-Ling Mao, Binbin Bian and Heyan Huang
+* ICKG 2020 [Improving Document-level Relation Extraction via Contextualizing Mention Representations andWeighting Mention Pairs](https://ieeexplore.ieee.org/document/9194547), [code](https://github.com/nefujiangping/EncAttAgg), Ping Jiang, Xian-Ling Mao, Binbin Bian and Heyan Huang
 
 * arXiv 2020 [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
   <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
