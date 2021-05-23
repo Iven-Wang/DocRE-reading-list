@@ -73,6 +73,8 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * PAKDD 2020 [HIN: Hierarchical Inference Network for Document-Level Relation Extraction](https://arxiv.org/abs/2003.12754), Hengzhu Tang, Yanan Cao, Zhenyu Zhang, Jiangxia Cao, Fang Fang, Shi Wang, Pengfei Yin
   <br> 👉 Method: Hierarchical (entity & document level) inference representation (using LSTMs, attention and all kinds of "concat") for an entity pair's representation
 
+* ICKG 2020 [Improving Document-level Relation Extraction via Contextualizing Mention Representations andWeighting Mention Pairs](https://ieeexplore.ieee.org/document/9194547), Ping Jiang, Xian-Ling Mao, Binbin Bian and Heyan Huang
+
 * arXiv 2020 [Coarse-to-Fine Entity Representations for Document-level Relation Extraction](https://arxiv.org/abs/2012.02507), Damai Dai, Jing Ren, Shuang Zeng, Baobao Chang, Zhifang Sui
   <br> 👉 Method: a word graph for coarse representation, Bi-GRU for path encoding, and an attention aggregator
 
