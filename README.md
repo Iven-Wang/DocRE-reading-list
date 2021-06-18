@@ -6,9 +6,6 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 ## Doc RE Papers
 
 ### 2021
-
-* arxiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
-  <br> 👉 Method: Predict evidence sentences to construct pseudo document, and use a blend layer to combine the predictions of origin/pseudo document.
   
 * IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation](https://arxiv.org/abs/2106.03618), [code](https://github.com/zjunlp/DocuNet), Ningyu Zhang, Xiang Chen, Xin Xie, Shumin Deng, Chuanqi Tan, Mosha Chen, Fei Huang, Luo Si, Huajun Chen
   <br> 👉 Method: Capturing the corelation between relations by U-net, which is to enlarge the reciptove field
@@ -47,7 +44,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
 
 * arXiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
-  <br> 👉 Method: three-stage evidence-enhanced DocRE framework consisting of joint relation and evidence ex- traction, evidence-centered relation extraction (RE), and fusion of extraction results.
+  <br> 👉 Method: Predict evidence sentences to construct pseudo document, and use a blend layer to combine the predictions of origin/pseudo document.
 
 * arXiv 2021 [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
   <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
