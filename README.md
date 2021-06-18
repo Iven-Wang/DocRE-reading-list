@@ -7,7 +7,10 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
-* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() (Not public yet), [code](https://github.com/zjunlp/DocuNet)
+* arxiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
+  <br> 👉 Method: Predict evidence sentences to construct pseudo document, and use a blend layer to combine the predictions of origin/pseudo document.
+  
+* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation](https://arxiv.org/abs/2106.03618), [code](https://github.com/zjunlp/DocuNet), Ningyu Zhang, Xiang Chen, Xin Xie, Shumin Deng, Chuanqi Tan, Mosha Chen, Fei Huang, Luo Si, Huajun Chen
   <br> 👉 Method: Capturing the corelation between relations by U-net, which is to enlarge the reciptove field
 
 * ACL 2021 [Three Sentences Are All You Need — Local Path Enhanced Document Relation Extraction](https://arxiv.org/abs/2106.01793), [code](https://github.com/AndrewZhe/Three-Sentences-Are-All-You-Need), Quzhe Huang, Shengqi Zhu, Yansong Feng, Yuan Ye, Yuxuan Lai and Dongyan Zhao
