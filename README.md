@@ -7,9 +7,6 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
-* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() (Not public yet), [code](https://github.com/zjunlp/DocuNet)
-  <br> 👉 Method: Capturing the corelation between relations by U-net, which is to enlarge the reciptove field
-
 * ACL 2021 [Three Sentences Are All You Need — Local Path Enhanced Document Relation Extraction](https://arxiv.org/abs/2106.01793), [code](https://github.com/AndrewZhe/Three-Sentences-Are-All-You-Need), Quzhe Huang, Shengqi Zhu, Yansong Feng, Yuan Ye, Yuxuan Lai and Dongyan Zhao
   <br> 👉 Method: Using huristic rules to select at most 3 sentences for an entity pair
 
@@ -19,17 +16,11 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * ACL 2021 Findings [Discriminative Reasoning for Document-level Relation Extraction](https://arxiv.org/abs/2106.01562), [code](https://github.com/xwjim/DRN), Wang Xu, Kehai Chen, Tiejun Zhao
   <br> 👉 Method: Represent 3 types of paths for each relation pair, the paths including: intra-sentence reasoning path, logical reasoning path, and coreference reasoning path.
 
-* PAKDD 2021 [Densely Connected Graph Attention Network Based on Iterative Path Reasoning for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75765-6_22.pdf), Hongya Zhang, Zhen Huang, Zhenzhen Li, Dongsheng Li, and Feng Liu
-  <br> 👉 Method: DCGAT for structural representation + inference same as EoG
-
-* PAKDD 2021 [SaGCN: Structure-Aware Graph Convolution Network for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75768-7_30.pdf), Shuangji Yang, Taolin Zhang, Danning Su, Nan Hu, Wei Nong, and Xiaofeng He
-  <br> 👉 Method: a graph with explicit structure (depandency tree) and implicit structure (from hardkuma distribution) for structural representation, and a graph for inference
-
-* ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
-  <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
-
 * EACL 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
   <br> 👉 Method: a model for JOINT mention detection and doc RE: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
+
+* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() (Not public yet), [code](https://github.com/zjunlp/DocuNet)
+  <br> 👉 Method: Capturing the corelation between relations by U-net, which is to enlarge the reciptove field
 
 * AAAI 2021 [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
   <br> 👉 Method: build a graph like EoG, use LSTM to calculate the probability of "inference meta path", then maximize the probability of relationed entity pairs using BCE
@@ -42,6 +33,18 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 * AAAI 2021 [Multi-view Inference for Relation Extraction with Uncertain Knowledge](https://www.researchgate.net/publication/347879225_Multi-view_Inference_for_Relation_Extraction_with_Uncertain_Knowledge), Bo Li, Wei Ye, Canming Huang, Shikun Zhang
   <br> 👉 Method: use KG concept knowledges: 3 attention aggregation(e2c, c2e, m2e) to get contextual and global entity pair representation, another attention aggregation to get sentence representation, concat for final classification
+
+* PAKDD 2021 [Densely Connected Graph Attention Network Based on Iterative Path Reasoning for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75765-6_22.pdf), Hongya Zhang, Zhen Huang, Zhenzhen Li, Dongsheng Li, and Feng Liu
+  <br> 👉 Method: DCGAT for structural representation + inference same as EoG
+
+* PAKDD 2021 [SaGCN: Structure-Aware Graph Convolution Network for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75768-7_30.pdf), Shuangji Yang, Taolin Zhang, Danning Su, Nan Hu, Wei Nong, and Xiaofeng He
+  <br> 👉 Method: a graph with explicit structure (depandency tree) and implicit structure (from hardkuma distribution) for structural representation, and a graph for inference
+
+* ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
+  <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
+
+* Information Sciences, [Document-level relation extraction with entity-selection attention](https://www.sciencedirect.com/science/article/abs/pii/S0020025521003285), Changsen Yuan, Heyan Huang, Chong Feng, Ge Shi, and Xiaochi Wei
+  <br> 👉 Method: Select the essential sentence-level features and document-level features from the document by inter-sentenceattention and combine them with the document gating.
 
 * arXiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
   <br> 👉 Method: three-stage evidence-enhanced DocRE framework consisting of joint relation and evidence ex- traction, evidence-centered relation extraction (RE), and fusion of extraction results.
