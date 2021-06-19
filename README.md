@@ -19,7 +19,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * EACL 2021 [An End-to-end Model for Entity-level Relation Extraction using Multi-instance Learning](https://arxiv.org/abs/2102.05980), Markus Eberts, Adrian Ulges
   <br> 👉 Method: a model for JOINT mention detection and doc RE: finetune BERT for 4 tasks: entity mention localization, coreference resolution, entity classification and relation classification
 
-* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation]() (Not public yet), [code](https://github.com/zjunlp/DocuNet)
+* IJCAI 2021 [Document-level Relation Extraction as Semantic Segmentation](https://arxiv.org/abs/2106.03618), [code](https://github.com/zjunlp/DocuNet)
   <br> 👉 Method: Capturing the corelation between relations by U-net, which is to enlarge the reciptove field
 
 * AAAI 2021 [Document-Level Relation Extraction with Reconstruction](https://arxiv.org/abs/2012.11384), Wang Xu, Kehai Chen, Tiejun Zhao
@@ -47,7 +47,7 @@ Our list is still incomplete and the categorization might be inappropriate. We w
   <br> 👉 Method: Select the essential sentence-level features and document-level features from the document by inter-sentenceattention and combine them with the document gating.
 
 * arXiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
-  <br> 👉 Method: three-stage evidence-enhanced DocRE framework consisting of joint relation and evidence ex- traction, evidence-centered relation extraction (RE), and fusion of extraction results.
+  <br> 👉 Method: Predict evidence sentences to construct pseudo document, and use a blend layer to combine the predictions of origin/pseudo document.
 
 * arXiv 2021 [BERT-GT: Cross-sentence n-ary relation extraction with BERT and Graph Transformer](https://arxiv.org/abs/2101.04158), Po-Ting Lai, Zhiyong Lu
   <br> 👉 Method: densely connect Graph Transformer(neighbor attention) & Transformer to improve BERT
