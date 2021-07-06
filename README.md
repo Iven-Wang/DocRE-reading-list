@@ -46,6 +46,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * Information Sciences, [Document-level relation extraction with entity-selection attention](https://www.sciencedirect.com/science/article/abs/pii/S0020025521003285), Changsen Yuan, Heyan Huang, Chong Feng, Ge Shi, and Xiaochi Wei
   <br> 👉 Method: Select the essential sentence-level features and document-level features from the document by inter-sentenceattention and combine them with the document gating.
 
+* Pattern Recognition Letters [Document-level Relation Extraction via Graph Transformer Networks and Temporal Convolutional Networks](https://www.sciencedirect.com/science/article/pii/S016786552100218X), Yong Shi, Yang Xiao, Pei Quan, MingLong Lei, and Lingfeng Niu
+  <br> 👉 Method: Temporal convolutional networks as encoder, build graph with huristic rules, and graph transformer networks for path gengration
+
 * arXiv 2021 [Eider: Evidence-enhanced Document-level Relation Extraction](https://arxiv.org/abs/2106.08657), Yiqing Xie, Jiaming Shen, Sha Li, Yuning Mao, Jiawei Han
   <br> 👉 Method: Predict evidence sentences to construct pseudo document, and use a blend layer to combine the predictions of origin/pseudo document.
 
