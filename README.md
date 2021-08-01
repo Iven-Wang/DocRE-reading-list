@@ -43,6 +43,9 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * PAKDD 2021 [SaGCN: Structure-Aware Graph Convolution Network for Document-Level Relation Extraction](https://link.springer.com/content/pdf/10.1007%2F978-3-030-75768-7_30.pdf), Shuangji Yang, Taolin Zhang, Danning Su, Nan Hu, Wei Nong, and Xiaofeng He
   <br> 👉 Method: a graph with explicit structure (depandency tree) and implicit structure (from hardkuma distribution) for structural representation, and a graph for inference
 
+* ECML-PKDD 2021 [NA-Aware Machine Reading Comprehension for Document-Level Relation Extraction](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_591.pdf), Zhenyu Zhang, Bowen Yu, Xiaobo Shu, and Tingwen Liu
+  <br> 👉 Method: using MRC-style encoder, aggragate mentions using directional attention flow, and add nota into labels
+
 * ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
   <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
 
