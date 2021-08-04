@@ -48,6 +48,8 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * ICASSP 2021 [Multi-Granularity Heterogeneous Graph for Document-Level Relation Extraction](https://ieeexplore.ieee.org/abstract/document/9414755)
   <br> 👉 Method: RGCN for graph reasoning, and entity-ware attn for final relation representation
 
+* IEEE, [Multi-Scale Feature and Metric Learning for Relation Extraction](https://arxiv.org/abs/2107.13425), Mi Zhang, Tieyun Qian
+
 * Knowledge-Based Systems, [Document-level relation extraction using evidence reasoning on RST-GRAPH](https://www.sciencedirect.com/science/article/pii/S0950705121005360), Hailin Wang, Ke Qin, Guoming Lu, Jin Yin, Rufai Yusuf Zakari, Jim Wilson Owusu
 
 * Information Sciences, [Document-level relation extraction with entity-selection attention](https://www.sciencedirect.com/science/article/abs/pii/S0020025521003285), Changsen Yuan, Heyan Huang, Chong Feng, Ge Shi, and Xiaochi Wei
