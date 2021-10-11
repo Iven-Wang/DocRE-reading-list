@@ -58,6 +58,8 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 * Pattern Recognition Letters [Document-level Relation Extraction via Graph Transformer Networks and Temporal Convolutional Networks](https://www.sciencedirect.com/science/article/pii/S016786552100218X), Yong Shi, Yang Xiao, Pei Quan, MingLong Lei, and Lingfeng Niu
   <br> 👉 Method: Temporal convolutional networks as encoder, build graph with huristic rules, and graph transformer networks for path gengration
 
+* arXiv 2021 [SAIS: Supervising and Augmenting Intermediate Steps for Document-Level Relation Extraction](https://arxiv.org/pdf/2109.12093.pdf), Yuxin Xiao, Zecheng Zhang, Yuning Mao, Carl Yang, Jiawei Han
+
 * arXiv 2021 [Modular Self-Supervision for Document-Level Relation Extraction](https://arxiv.org/pdf/2109.05362), Sheng Zhang, Cliff Wong, Naoto Usuyama, Sarthak Jain, Tristan Naumann, Hoifung Poon
   <br> 👉 Method: Decompose document-level relation extraction into relation detection and argument resolution.
 
