@@ -7,6 +7,8 @@ Our list is still incomplete and the categorization might be inappropriate. We w
 
 ### 2021
 
+* EMNLP 2021 [Learning Logic Rules for Document-level Relation Extraction](https://aclanthology.org/2021.emnlp-main.95/)
+
 * ACL 2021 [Three Sentences Are All You Need — Local Path Enhanced Document Relation Extraction](https://arxiv.org/abs/2106.01793), [code](https://github.com/AndrewZhe/Three-Sentences-Are-All-You-Need), Quzhe Huang, Shengqi Zhu, Yansong Feng, Yuan Ye, Yuxuan Lai and Dongyan Zhao
   <br> 👉 Method: Using huristic rules to select at most 3 sentences for an entity pair
 
